@@ -33,10 +33,10 @@ class LowB:
 
 
 class HighA:
-	def __init__(self, file_hash, full_path, last_runtime):
-		self.file_hash = LowA(file_hash)
-		self.full_path = LowB(full_path)
-		self.last_runtime = last_runtime
+	def __init__(self, a, b, c):
+		self.a = LowA(a)
+		self.b = LowB(b)
+		self.c = c
 
 
 a = HighA("101010101", "cmd.exe", "2021-04-01")
